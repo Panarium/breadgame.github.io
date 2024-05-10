@@ -1,8 +1,9 @@
 body{
-  background-color: tan;
+  background-color: #5C4033;
 }
+
 #header{
-  color: Sienna;
+  color: Wheat;
   font-family: "Courier New", monospace;
   font-size: 48px;
 
@@ -23,10 +24,15 @@ h2 {
   text-align: center;
 }
 
+#intro{
+  font-family: Courier New, monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
 p{
   font-family: "Courier New", monospace;
   font-size: 16px;
-  text-align: center;
 }
 
 ul{
@@ -61,7 +67,26 @@ li {
 #main{
   margin: auto;
   min-height: 800px;
-  background-color: wheat;
+  background: wheat;
   width: 80%;
   margin-bottom: 50px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 100px 100px 0 0;
+}
+
+.pagecontent {
+  text-align: justify;
+  font-size: 100px;
+  margin: auto;
+  width: 80%;
+}
+
+h3{
+  font-family: Courier New, monospace;
+  font-size: 24px;
+}
+
+footer{
+  color: wheat;
 }
