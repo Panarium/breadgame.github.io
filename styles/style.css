@@ -33,7 +33,7 @@ li {
   margin: 20px;
 }
 
-.topbar {
+.subpagelink {
   background-color: grey;
   padding: 20px;
   padding-top: 10px;
@@ -47,7 +47,7 @@ li {
   text-decoration: none;
 
 }
-.topbar:hover {
+.subpagelink:hover {
   color: wheat;
   text-decoration: none;
   border: inset black;
