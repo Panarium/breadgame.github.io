@@ -1,26 +1,33 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body{
   background-color: #5C4033;
 }
 
 #header{
   color: Wheat;
-  font-family: "Courier New", monospace;
-  font-size: 48px;
+  font-family: "VT323", monospace;
+  font-size: 3em;
 
   text-shadow: 2px 2px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 2px black;
   text-decoration: none;
 }
 
 h1 {
+  font-family: "VT323", "Courier New", monospace;
   text-align: center;
   padding-bottom: 10px;
 
 }
 
 h2 {
-  font-family: "Courier New", monospace;
-  font-size: 32px;
+  font-family: "VT323","Courier New", monospace;
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -35,9 +42,10 @@ h2 {
 p{
   font-family: "Courier New", monospace;
   font-size: 1.2em;
-  text-indent: 2em;
-  margin-bottom: 0.5em;
-  margin-top: 0.5em;
+  text-indent: 2.5em;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  line-height: 1.5em;
 }
 
 ul{
@@ -57,7 +65,7 @@ li {
   border: outset black;
   margin: auto;
 
-  font-family: Courier New, monospace;
+  font-family: "Courier New", monospace;
   font-size: 20px;
   color: black;
   text-decoration: none;
@@ -87,10 +95,11 @@ li {
 }
 
 h3{
-  font-family: Courier New, monospace;
-  font-size: 24px;
+  font-family: "VT323","Courier New", monospace;
+  font-size: 2.5em;
 }
 
 footer{
   color: wheat;
+  text-align: center;
 }
