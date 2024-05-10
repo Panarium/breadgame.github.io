@@ -61,6 +61,7 @@ li {
 #main{
   margin: auto;
   min-height: 800px;
-  background-image: linear-gradient(wheat 200px, sienna);
+  background-color: wheat;
   width: 80%;
+  margin-bottom: 50px;
 }
