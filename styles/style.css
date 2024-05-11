@@ -68,7 +68,7 @@ li {
   padding-bottom: 10px;
   border: outset black;
   margin: auto;
-font-weight: bolder;
+  font-weight: bolder;
   font-family: "Courier New", monospace;
   font-size: 20px;
   color: black;
@@ -92,7 +92,7 @@ font-weight: bolder;
 }
 
 .pagecontent {
-  text-align: justify;
+  text-align: left;
   margin: auto;
   width: 70%;
 }
